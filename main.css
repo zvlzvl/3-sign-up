@@ -1,5 +1,5 @@
-/*.TODO: pagrindinis turinys turi b8ti centruota horizontaliai*/
-/*.TODO: pagrindinis turinys turi b8ti centruota vertikaliai*/
+/*.TODO: pagrindinis turinys turi būti centruota horizontaliai*/
+/*.TODO: pagrindinis turinys turi būti centruota vertikaliai*/
 
 /* TODO: */
 
@@ -14,8 +14,26 @@ div:nth-of-type(1) {
     display: inline-block;
     width: 40%;
     background-color: yellow;
+    padding: 40px;
     float: left;
 
+}
+hi{
+    display: inline-block;
+    width: 100%;
+}
+footer{
+    display: inline-block;
+    width: 100%;
+}
+a{
+    display:inline-block;
+    float: left;
+}
+span{
+    display: inline-block;
+    float: left;
+    
 }
 div:nth-of-type(2) {
 
