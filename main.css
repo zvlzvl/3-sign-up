@@ -1,83 +1,84 @@
 /*.TODO: pagrindinis turinys turi būti centruota horizontaliai*/
-/*.TODO: pagrindinis turinys turi būti centruota vertikaliai*/
 
-/* TODO: */
 body{
     background-color: #94CCE0;
 }
+
 .container{
     display: inline-block;
     width: 800px;
-    
-    margin-left: calc((100% - 800px) / 2);
-
+    margin-left: calc((100% - 800px) / 2)
+    margin-top: 100px;
 }
-main > div:nth-of-type(1) {
+
+.left-collumn {
     display: inline-block;
     width: 40%;
-    background-color: rgba(89, 125, 245, 0.692);
-    padding: 40px;
     float: left;
+    padding: 40px;
+    background-color: rgba(89, 125, 245, 0.692);
+    }
 
-}
 .main-title{
     display: inline-block;
     width: 100%;
 }
+
 .bottom-links{
     display: inline-block;
     width: 100%;
 }
-a{
+
+.bottom-links > .link{
     display:inline-block;
-    
 }
-footer > span{
+
+.symbol{
     display: inline-block;  
-  
 }
-main > div:nth-of-type(2) {
+
+.right-collumn{
     display: inline-block;
     width: 60%;
+    float: left;
     padding: 60px;
     background-color: white;
-    float: left;
-
 }
-/* x-close element*/
-div > div{
+
+.close{
     display: inline-block;
     background-color: red;
 }
 
-form{
+.form{
     display: inline-block;
     width: 100%;
-
 }
-form > div{
+
+.form-row{
     display: inline-block;
     width: 100%;
-
+    margin-bottom: 30px;
 }
+.form-row:last-of-type{
+    margin-bottom: 0;
+}
+
 label{
     display: inline-block;
     width: 100%;
-
 }
+
 input{
     display: inline-block;
     width: 100%;
-
 }
-
 
 .btn{
-
 }
+
 .text{
-
 }
-.form-row > .link{
 
+.form-row > .link{
 }
