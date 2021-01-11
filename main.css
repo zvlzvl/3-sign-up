@@ -1,84 +1,84 @@
-/*.TODO: pagrindinis turinys turi būti centruota horizontaliai*/
+/* TODO: pagrindinis turinys turi buti centruotas vertikaliai */
 
-body{
-    background-color: #94CCE0;
+body {
+    background-color: #06b5d0;
 }
 
-.container{
+.container {
     display: inline-block;
     width: 800px;
-    margin-left: calc((100% - 800px) / 2)
+    margin-left: calc((100% - 800px) / 2);
     margin-top: 100px;
 }
 
-.left-collumn {
+.left-column {
     display: inline-block;
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: rgba(89, 125, 245, 0.692);
-    }
+    background-color: #0168ba;
+}
 
-.main-title{
+.main-title {
     display: inline-block;
     width: 100%;
 }
 
-.bottom-links{
+.bottom-links {
     display: inline-block;
     width: 100%;
 }
 
-.bottom-links > .link{
-    display:inline-block;
+.bottom-links > .link {
+    display: inline-block;
 }
 
-.symbol{
-    display: inline-block;  
+.symbol {
+    display: inline-block;
 }
 
-.right-collumn{
+.right-column {
     display: inline-block;
     width: 60%;
     float: left;
     padding: 60px;
-    background-color: white;
+    background-color: #fff;
 }
 
-.close{
+.close {
     display: inline-block;
     background-color: red;
 }
 
-.form{
+.form {
     display: inline-block;
     width: 100%;
 }
 
-.form-row{
+.form-row {
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
 }
-.form-row:last-of-type{
+.form-row:last-of-type {
     margin-bottom: 0;
 }
 
-label{
+label {
     display: inline-block;
     width: 100%;
 }
 
-input{
+input {
     display: inline-block;
     width: 100%;
 }
 
-.btn{
+.btn {
 }
 
-.text{
+.text {
 }
 
-.form-row > .link{
+.form-row > .link {
 }
