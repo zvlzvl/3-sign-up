@@ -1,0 +1,27 @@
+/*.TODO: pagrindinis turinys turi b8ti centruota horizontaliai*/
+/*.TODO: pagrindinis turinys turi b8ti centruota vertikaliai*/
+
+/* TODO: */
+
+main{
+    display: inline-block;
+    width: 800px;
+    background-color: red;
+    margin-left: calc((100% - 800px) / 2);
+
+}
+div:nth-of-type(1) {
+    display: inline-block;
+    width: 40%;
+    background-color: yellow;
+    float: left;
+
+}
+div:nth-of-type(2) {
+
+    display: inline-block;
+    width:60%;
+    background-color: blue;
+    float: left;
+
+}
