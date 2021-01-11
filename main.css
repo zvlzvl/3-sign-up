@@ -2,27 +2,29 @@
 /*.TODO: pagrindinis turinys turi būti centruota vertikaliai*/
 
 /* TODO: */
-
-main{
+body{
+    background-color: #94CCE0;
+}
+.container{
     display: inline-block;
     width: 800px;
-    background-color: red;
+    
     margin-left: calc((100% - 800px) / 2);
 
 }
-div:nth-of-type(1) {
+main > div:nth-of-type(1) {
     display: inline-block;
     width: 40%;
-    background-color: yellow;
+    background-color: rgba(89, 125, 245, 0.692);
     padding: 40px;
     float: left;
 
 }
-hi{
+.main-title{
     display: inline-block;
     width: 100%;
 }
-footer{
+.bottom-links{
     display: inline-block;
     width: 100%;
 }
@@ -30,14 +32,52 @@ a{
     display:inline-block;
     
 }
-span{
+footer > span{
     display: inline-block;  
   
 }
-div:nth-of-type(2) {
+main > div:nth-of-type(2) {
     display: inline-block;
     width: 60%;
-    background-color: blue;
+    padding: 60px;
+    background-color: white;
     float: left;
+
+}
+/* x-close element*/
+div > div{
+    display: inline-block;
+    background-color: red;
+}
+
+form{
+    display: inline-block;
+    width: 100%;
+
+}
+form > div{
+    display: inline-block;
+    width: 100%;
+
+}
+label{
+    display: inline-block;
+    width: 100%;
+
+}
+input{
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+.btn{
+
+}
+.text{
+
+}
+.form-row > .link{
 
 }
